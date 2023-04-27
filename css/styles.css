@@ -1,0 +1,132 @@
+.footer-shit{
+    display: flex;
+    justify-content: space-between9             ;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+input{
+    padding-right: 5rem
+}
+button{
+    color: white;
+    border-style: none;
+    background-color: hsl(224, 93%, 58%);
+}
+button:hover{
+    background-color: hsl(224, 94%, 74%);
+}
+.links-foot{
+    margin-bottom: 1.5rem;
+}
+.links-foot:hover{
+    cursor: pointer;
+    color:hsl(224, 93%, 58%) ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.testimonials{
+  max-width: 60%;
+  padding: 2.2rem;
+  margin-top: 2.6rem;
+  background-color: white;
+  font-size: 0.8rem;
+  word-spacing: 3.5px;
+  line-height: 1.4rem;
+  border-radius: 10px;
+  box-shadow: 4px 10px 15px  hsl(0, 0%, 75%);
+}
+.testimonials-author {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;  
+  margin-top: 0.4rem;
+}
+.testimonials-author img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 2.5rem;
+}
+.testimonials-author h3 {
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  font-weight: bold;
+  word-spacing: 0.5px;
+}
+.testimonials-author h4 {
+  font-size: 0.7rem;
+  margin-top: -8px;
+  word-spacing: 1.5px;
+}
+.author-name{
+  margin-top: 0.2rem;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.icon-s{
+  width: 33px;
+  height: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.icon-s:hover{
+  border: 1px solid hsl(224, 97%, 64%) ;
+}
+i:hover{
+  color:hsl(224, 93%, 58%)  ;
+}
+.last-section{
+    background-color: hsl(243, 87%, 12%);
+}
+
+.early-access{
+    background-color: hsl(238, 22%, 44%);
+}
+.link-fylo{
+    color:hsl(170, 45%, 43%);
+}
+.link-fylo:hover{
+    color: aquamarine;
+}
+.featuring-part{
+background-color:#F8F8FE;
+  }
+#mob-back{
+  display: none;
+}
+
+@media (max-width:1000px){
+  .testimonials{
+    max-width: 80%;
+  }
+}
+@media (max-width:770px){
+  #desk-back{
+    display: none;
+  }
+  #mob-back{
+    width: 100%;
+    display: block;
+  }
+}
+@media (max-width:550px){
+  .fylo-top{
+    width: 70%;
+  }
+  .testimonials{
+    max-width: 100%;
+  }
+}
+
+
+
