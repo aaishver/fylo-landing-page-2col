@@ -74,6 +74,7 @@ img {
   height: auto;
 }
 .icon-s{
+  cursor: pointer;
   width: 33px;
   height: 33px;
   border: 1px solid white;
